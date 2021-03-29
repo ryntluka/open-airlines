@@ -1,0 +1,17 @@
+.stars-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #ffc315;
+}
+
+.stars-wrapper:before, .stars:before {
+    content: "★ \0020 ★ \0020 ★ \0020 ★ \0020 ★";
+}
